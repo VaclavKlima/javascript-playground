@@ -1,0 +1,56 @@
+.btn {
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+  background-color: #66fde8;
+  border: 1px solid #013022;
+  box-shadow: 0 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 5px rgba(102, 253, 207, 0.7), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.btn-danger {
+  background-color: #f10101;
+  border: 1px solid black;
+  box-shadow: 0 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 5px rgba(241, 1, 41, 0.7), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.btn-warning {
+  background-color: #fdbb02;
+  border: 1px solid black;
+  box-shadow: 0 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 5px rgba(253, 145, 2, 0.7), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.btn-info {
+  background-color: #e0fa0a;
+  border: 1px solid black;
+  box-shadow: 0 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 5px rgba(250, 236, 10, 0.7), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.btn-success {
+  background-color: #28fb65;
+  border: 1px solid black;
+  box-shadow: 0 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 5px rgba(40, 251, 66, 0.7), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.card {
+  width: 200px;
+  height: 400px;
+  background-color: #1c1c1c;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: recommendedAni 3s infinite linear;
+}
+
+@keyframes recommendedAni {
+  0% {
+    box-shadow: rgb(89, 194, 81) 0px 0px 50px;
+  }
+  50% {
+    box-shadow: rgb(89, 194, 81) 0px 0px 100px;
+  }
+  100% {
+    box-shadow: rgb(89, 194, 81) 0px 0px 50px;
+  }
+}
+body {
+  background-color: gray;
+}
+
+/*# sourceMappingURL=main.css.map */

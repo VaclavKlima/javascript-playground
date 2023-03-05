@@ -1,0 +1,13 @@
+$theme-colors : (
+  'primary' : #66fdcf,
+  'danger': #f10129,
+  'warning' : #fd9102,
+  'info': #faec0a,
+  'success': #28fb42,
+);
+
+$primary: map-get($theme-colors, 'primary');
+$danger: map-get($theme-colors, 'danger');
+$warning: map-get($theme-colors, 'warning');
+$info: map-get($theme-colors, 'info');
+$success: map-get($theme-colors, 'success');
